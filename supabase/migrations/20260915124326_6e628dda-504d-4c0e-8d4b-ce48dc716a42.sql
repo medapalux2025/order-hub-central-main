@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.track_landing_page_visit(text) FROM anon, authenticated;

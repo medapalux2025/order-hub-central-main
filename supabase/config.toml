@@ -1,0 +1,10 @@
+project_id = "zbqdopjnuztpoiqyancp"
+
+[auth]
+site_url = "http://localhost:8080"
+additional_redirect_urls = [
+  "http://localhost:8080/auth/callback",
+  "https://*.vercel.app/auth/callback",
+  "https://*.lovable.app/auth/callback",
+  "https://*.lovableproject.com/auth/callback",
+]
